@@ -18,6 +18,21 @@ fn main() {
 
     for i in 1..100 {
         sum += i;
-        println!("Sum: {}", sum);
+        
     }
+
+    println!("Sum: {}", sum);
+
+    // Array without data type
+    let a = [1, 3, 5, 6, 9];
+
+    // Array with data type and size
+    let b: [i32; 6] = [2, 4, 5, 6, 7, 9];
+
+    // Array with default values
+    let c = [3; 5];
+
+    println!("{:?}", a);
+    println!("{:?}", b);
+    println!("{:?}", c);
 }
