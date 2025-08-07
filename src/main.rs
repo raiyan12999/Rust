@@ -35,4 +35,15 @@ fn main() {
     println!("{:?}", a);
     println!("{:?}", b);
     println!("{:?}", c);
+
+    
+    println!("Try programiz.pro");
+    print!("Trying");
+    println!(" Trying hard");
+    
+    let name = "Raiyan";
+    let age = 27;
+    
+    println!("My name is {1}, My age is {0}", name, age);
+
 }
