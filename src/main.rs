@@ -22,4 +22,14 @@ fn main(){
     println!("The new integer value of the variable is {}", another_integer);
 
 
+    // looping through the element of an array
+
+    let numbers = [1, 3, 5, 6, 4, 3];
+
+    for i in 2..5{
+        println!("{}", numbers[i]);
+    }
+
+
+
 }
