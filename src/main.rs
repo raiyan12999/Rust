@@ -30,6 +30,16 @@ fn main(){
         println!("{}", numbers[i]);
     }
 
+    let mut sum = 0;
+
+    for j in 0..6{
+        sum = sum + numbers[j];
+    }
+
+    println!("{}", sum);
+
+
+
 
 
 }
